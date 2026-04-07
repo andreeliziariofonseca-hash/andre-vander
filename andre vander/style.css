@@ -20,7 +20,7 @@ body {
 }
 
 .caixaApp {
-    background-color: rgb(133, 123, 123);
+    background-color: rgb(4, 7, 4);
       
     /*modificar*/
     width: 550px;
@@ -28,7 +28,7 @@ body {
     padding: 50px;
     /*modificar*/
     border-radius: 35px;
-  
+    box-shadow: 0 0 35px rgb(4, 7, 4);
 
 }
 
@@ -40,7 +40,7 @@ body {
     /* borda quando clica*/
     background-color: hsla(0, 20%, 99%, 0.102);
     /*modificar*/
-    color: rgb(0, 0, 0);
+    color: rgb(224, 224, 224);
     /*cor do texto modificar*/
     padding: 50px;
     /*modificar espaço interno*/
@@ -56,48 +56,49 @@ body {
     font-size: 18px;
     /*modificar */
     color:
-        #00000099;
+        #ffffff99;
     /*modificar*/
 }
 
 .titulo-traducao {
-    color: #00000099;
+    color: #ffffff99;
     font-size:    19px;
     margin-bottom:    15px;
     border-radius: 15px;
 }
-.caixa-interna {
-
-display: flex;
-align-items: center;
-gap: 10px;
-margin: 20px auto;
-
+.caixa-interna{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 20px auto;
 }
-
 .idioma {
-
-width: 100%;
-border: none;
-padding: 10px;
-background-color: #ffffff1a;
-color: rgb(48, 34, 34);
-border-radius: 20px;
-outline: none;
-cursor: pointer;
-
+    width: 100%;
+    border:none;
+    padding: 10px;
+    background-color:rgb(32, 39, 32);
+    color:rgb(254, 255, 255);
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
 }
-button{
-
-border: none;
-padding: 10px;
-border-radius: 50%;
-background-color: #ffffff1a;
-cursor: pointer;
-color: rgb(56, 35, 35);
-
+button {
+    border:none;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(57, 70, 70);
+    cursor : pointer;
+    color:rgb(255, 255, 255);
 }
-
 button:hover{
-opacity: 09;
+    opacity: 0.5;
+}
+
+.idioma option {
+background-color: blue;
+color:aqua;
+}
+.idioma option {
+background-color: rgb(146, 146, 148);
+color: rgb(230, 230, 234);
 }
